@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+0265cee5a90d1c1195ef54568b0cb4061e668344
+0265cee5a90d1c1195ef54568b0cb4061e668344
+714e49e4918a502df13c6e90da062acdaec164d3
+714e49e4918a502df13c6e90da062acdaec164d3
+python-psutil_5.4.2.orig.tar.gz
+39c9c0c5573cd9d24f2d9626742fcc50646c33fa
+411888
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
