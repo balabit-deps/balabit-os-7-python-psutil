@@ -1,3 +1,14 @@
+python-psutil (5.4.2-1ubuntu0.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: double-free via refcount mishandling
+    - debian/patches/CVE-2019-18874-1.patch: use Py_CLEAR instead of
+      Py_DECREF in psutil/_psutil_linux.c.
+    - debian/patches/CVE-2019-18874-2.patch: use Py_CLEAR instead of
+      Py_DECREF in psutil/_psutil_posix.c.
+    - CVE-2019-18874
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 22 Nov 2019 10:17:21 -0500
+
 python-psutil (5.4.2-1) unstable; urgency=medium
 
   * New upstream release
